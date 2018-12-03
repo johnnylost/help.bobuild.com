@@ -1,0 +1,64 @@
+baseURL = "https://help.bobuild.com/"
+languageCode = "en-us"
+title = "Bobuild Help"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+defaultContentLanguage = "en"
+
+[params]
+	# General information
+	#author = ""
+	#description = ""
+	#copyright = "Released under the CC-BY-SA-4.0 license"
+
+	# Repository
+	provider = ""
+	repo_url = ""
+
+	#version = "1.0.0"
+	logo = "https://www.bobuild.com/wp-content/uploads/2017/06/bobuildlogo-light.png"
+	favicon = ""
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "red"
+    	accent  = "teal"
+
+    [params.font]
+    	text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+
+[[menu.main]]
+	name   = "About Bobuild"
+	url    = "/about-bobuild/"
+	weight = 0
+
+[[menu.main]]
+	name   = "Getting started"
+    identifier = "getting-started"
+	weight = 0
+
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 1
