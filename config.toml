@@ -41,9 +41,9 @@ defaultContentLanguage = "en"
 
 
 [[menu.main]]
-	name   = "About Bobuild"
+	name   = "What is Bobuild?"
 	url    = "/about-bobuild/"
-	weight = 0
+	weight = 10
 
 [[menu.main]]
 	name   = "Getting started"
