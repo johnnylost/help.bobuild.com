@@ -48,7 +48,12 @@ defaultContentLanguage = "en"
 [[menu.main]]
 	name   = "Getting started"
     identifier = "getting-started"
-	weight = 0
+	weight = 20
+
+[[menu.main]]
+	name   = "Reference manual"
+    identifier = "manual"
+	weight = 30
 
 
 [blackfriday]
