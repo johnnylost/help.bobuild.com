@@ -66,4 +66,4 @@ Basically, functions can be appended to placeholders with a double colon and the
 * `:sub_days(NUM)`: subtracts the given number of days from the input date.
 * `:days_to(DATE)`: calculates the difference in days between the input date and the given one.
 
-Do you need a function that is not implemented yet? Tell us ;-)
+Do you need a function that is not implemented yet? [Tell us](https://www.bobuild.com/contact/) ;-)
